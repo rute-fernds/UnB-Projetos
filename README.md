@@ -11,13 +11,14 @@ Como projeto final da disciplina de APC, desenvolvi o jogo Asteroid Universe bas
 
 O intuito desse projeto foi aplicar, de forma prática, conceitos fundamentais da programação, como estruturas de repetição, condicionais e funções.
 
-Para mais detalhes do projeto acesse [Asteroid Universe](link)
+➡️ Para mais detalhes do projeto acesse [Asteroid Universe](https://github.com/rute-fernds/Asteroid-Universe)
 
 --- 
 ### ⚙️ Introdução aos Sistemas Computacionais (ISC)
 
-Durante a disciplina de ISC desenvolvi em um projeto em grupo um jogo em Assembly (RISC-V). O Kwai Ice Cream baseado no Bad Ice Cream tem como objetivo fazer um releitura do jogo original com layouts
+Durante a disciplina de ISC desenvolvi em um projeto em grupo um jogo em Assembly na ISO RISC-V. O Kawaiice Cream é um jogo baseado no Bad Ice Cream (Nitrome), nesse projeto tivemos como o objetivo aplicar conceitos de programação em baixo nível, além de fazer uma releitura do jogo original, com personagens, layout, história e design próprios.
 
+➡️ Para mais detalhes do projeto acesse [Kawaiice Cream](https://github.com/rute-fernds/Asteroid-Universe)
 
 ## 📅 2024.1 - 2° Semestre
 
