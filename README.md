@@ -1,7 +1,7 @@
 # 🎓 Universidade de Brasília - Projetos
 Este repositório tem como objetivo organizar e criar uma linha do tempo com todos os meus projetos desenvolvidos a cada semestre durante a minha graduação em Ciência da Computação na Universidade de Brasília. 
 
-Cada pasta desse repositório pode ser considerada um projeto/repositório próprio, contendo seu próprio readme e suas demais informações.
+Alguns projetos foram desenvolvidos individualmente e outros em equipe (trabalho em grupo), deixo abaixo uma breve descrição sobre cada um e um link para o devido repositório do projeto.
 
 ## 📅 2023.2 - 1° Semestre
 
