@@ -3,6 +3,8 @@ Este repositório tem como objetivo organizar e criar uma linha do tempo com tod
 
 Alguns projetos foram desenvolvidos individualmente e outros em equipe (trabalho em grupo), deixo abaixo uma breve descrição sobre cada um e um link para o devido repositório do projeto.
 
+---
+
 ## 📅 2023.2 - 1° Semestre
 
 ### 🖥️ Algoritmo e Programação de Computadores (APC)
@@ -13,20 +15,34 @@ O intuito desse projeto foi aplicar, de forma prática, conceitos fundamentais d
 
 ➡️ Para mais detalhes do projeto acesse [Asteroid Universe](https://github.com/rute-fernds/Asteroid-Universe)
 
---- 
 ### ⚙️ Introdução aos Sistemas Computacionais (ISC)
 
-Durante a disciplina de ISC desenvolvi em um projeto em grupo um jogo em Assembly na ISO RISC-V. O Kawaiice Cream é um jogo baseado no Bad Ice Cream (Nitrome), nesse projeto tivemos como o objetivo aplicar conceitos de programação em baixo nível, além de fazer uma releitura do jogo original, com personagens, layout, história e design próprios.
+Durante a disciplina de ISC, desenvolvi, em um projeto em grupo, um jogo em Assembly na arquitetura RISC-V. 
 
-➡️ Para mais detalhes do projeto acesse [Kawaiice Cream](https://github.com/rute-fernds/Asteroid-Universe)
+O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual tivemos como objetivo aplicar conceitos de programação em baixo nível, além de criar personagens, layout, história e design próprios.
+
+➡️ Para mais detalhes do projeto acesse [Kawaiice Cream](https://github.com/rute-fernds/kawaiice-cream)
+
+---
 
 ## 📅 2024.1 - 2° Semestre
 
 ### 🔌 Laboratório de Circuitos Lógicos (LCL)
 
+Durante a disciplina de LCL, realizávamos semanalmente experimentos no laboratório e, em seguida elaborávamos relatórios sobre cada um deles. Dessa forma, todos os relatórios podem ser encontrados neste repositório, clique [aqui].
+
+#### Projeto Final: Relógio Digital com Cronômetro e Timer 🕑
+
+Para o desenvolvimento desse sistema, foi utilizado o software Quartus II para a implementação do código em linguagem de descrição de hardware (Verilog) e dos circuitos digitais, juntamente com a placa FPGA DE2, da Altera, para a síntese e verificação do hardware.
+
+➡️ Para mais detalhes sobre o projeto, acesse [LCL]().
+
+---
+
 ## 📅 2024.2 - 3° Semestre
 ### Técnicas de Programação 1 (TP1)
 
+---
 ## 📅 2025.1 - 4° Semestre
 ### 💻 Técnicas em Programação 2 (TP2)
 
@@ -34,11 +50,14 @@ Durante a disciplina de ISC desenvolvi em um projeto em grupo um jogo em Assembl
 - Projeto 1
 - Projeto 2
 
+---
 ## 📅 2025.2 - 5° Semestre
 
 ### 🎲 Banco de Dados (BD)
 
 ### 📊 Sistemas da Informação (SI)
+
+---
 
 ## 📅 2026.1 - 6° Semestre
 ### 🤖 Introdução a Inteligência Artificial (IIA)
