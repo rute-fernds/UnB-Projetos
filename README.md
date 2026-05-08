@@ -19,7 +19,7 @@ O intuito desse projeto foi aplicar, de forma prática, conceitos fundamentais d
 
 Durante a disciplina de ISC, desenvolvi, em um projeto em grupo, um jogo em Assembly na arquitetura RISC-V. 
 
-O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual tivemos como objetivo aplicar conceitos de programação em baixo nível, além de criar personagens, layout, história e design próprios.
+O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual tivemos como objetivo aplicar conceitos de programação em baixo nível, além de criar personagens, layout, história e design próprios. Na parte do desenvolvimento, trabalhei principalmente na criação do layout das fases juntamente 
 
 ➡️ Para mais detalhes do projeto acesse [Kawaiice Cream](https://github.com/rute-fernds/kawaiice-cream)
 
