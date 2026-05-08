@@ -46,13 +46,27 @@ Para o desenvolvimento desse sistema, foi utilizado o software Quartus II para a
 ### 💻 Técnicas em Programação 2 (TP2)
 
 ### 🌐 Redes de Computadores
-- Projeto 1
-- Projeto 2
+
+#### Projeto 1: ChatWeb 2.0 👩‍💻
+
+O primeiro projeto da disciplina de Redes de Computadores consistiu no desenvolvimento de uma aplicação web de chat utilizando a arquitetura cliente-servidor. Dessa forma, eu e meu grupo criamos o *ChatWeb 2.0*, um sistema completo de chat em tempo real que combina funcionalidades técnicas modernas com o design nostálgico do Windows XP. Além disso, o projeto demonstra, na prática, conceitos fundamentais de comunicação em rede e análise de protocolos.
+
+Durante o desenvolvimento do sistema, fiquei responsável principalmente pela parte de design e estética da interface gráfica da aplicação, utilizando HTML e CSS para a construção das telas e estilização.
+
+➡️ Para mais detalhes sobre o projeto, acesse [ChatWeb 2.0]().
+
+#### Projeto 2: 
 
 ---
 ## 📅 2025.2 - 5° Semestre
 
 ### 🎲 Banco de Dados (BD)
+
+Para a disciplina de Banco de Dados, desenvolvi, em dupla, um sistema de administração de condomínios com CRUD completo. O objetivo desse projeto era desenvolver uma aplicação capaz de modernizar e otimizar os processos administrativos realizados por gestores condominiais, aplicando os conceitos básicos de Banco de Dados juntamente com o MySQL, SGBD utilizado no projeto.
+
+Durante o desenvolvimento, fiquei responsável principalmente pela criação das telas utilizando Streamlit, elaboração dos diagramas MR e MER, estruturação do banco de dados, além de participar de grande parte do desenvolvimento e implementação do CRUD do sistema.
+
+➡️ Para mais detalhes sobre o projeto, acesse [Aministrador-Condominios]().
 
 ### 📊 Sistemas da Informação (SI)
 
