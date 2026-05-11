@@ -13,15 +13,15 @@ Como projeto final da disciplina de APC, desenvolvi o jogo Asteroid Universe bas
 
 O intuito desse projeto foi aplicar, de forma prática, conceitos fundamentais da programação, como estruturas de repetição, condicionais e funções.
 
-➡️ Para mais detalhes do projeto acesse [Asteroid Universe](https://github.com/rute-fernds/Asteroid-Universe)
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [Asteroid Universe](https://github.com/rute-fernds/Asteroid-Universe)
 
 ### ⚙️ Introdução aos Sistemas Computacionais (ISC)
 
 Durante a disciplina de ISC, desenvolvi, em um projeto em grupo, um jogo em Assembly na arquitetura RISC-V. 
 
-O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual tivemos como objetivo aplicar conceitos de programação em baixo nível, além de criar personagens, layout, história e design próprios. Na parte do desenvolvimento, trabalhei principalmente na criação do layout das fases juntamente 
+O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual tivemos como objetivo aplicar conceitos de programação em baixo nível, além de criar personagens, layout, história e design próprios. Na parte do desenvolvimento, trabalhei principalmente na criação do layout das fases, juntamente com a construção da matriz responsável pela renderização dessses cenários.
 
-➡️ Para mais detalhes do projeto acesse [Kawaiice Cream](https://github.com/rute-fernds/kawaiice-cream)
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [Kawaiice Cream](https://github.com/rute-fernds/kawaiice-cream)
 
 ---
 
@@ -34,7 +34,7 @@ Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalm
 
 Para o desenvolvimento desse sistema, foi utilizado o software Quartus II para a implementação do código em linguagem de descrição de hardware (Verilog) e dos circuitos digitais, juntamente com a placa FPGA DE2, da Altera, para a síntese e verificação do hardware.
 
-➡️ Para mais detalhes sobre o projeto, acesse [LCL](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1/Projeto%20Final%20-%20LCL).
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [LCL](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1/Projeto%20Final%20-%20LCL).
 
 ---
 
@@ -53,7 +53,7 @@ O primeiro projeto da disciplina de Redes de Computadores consistiu no desenvolv
 
 Durante o desenvolvimento do sistema, fiquei responsável principalmente pela parte de design e estética da interface gráfica da aplicação, utilizando HTML e CSS para a construção das telas e estilização.
 
-➡️ Para mais detalhes sobre o projeto, acesse [ChatWeb 2.0]().
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [ChatWeb 2.0]().
 
 #### Projeto 2: 
 
@@ -64,9 +64,9 @@ Durante o desenvolvimento do sistema, fiquei responsável principalmente pela pa
 
 Para a disciplina de Banco de Dados, desenvolvi, em dupla, um sistema de administração de condomínios com CRUD completo. O objetivo desse projeto era desenvolver uma aplicação capaz de modernizar e otimizar os processos administrativos realizados por gestores condominiais, aplicando os conceitos básicos de Banco de Dados juntamente com o MySQL, SGBD utilizado no projeto.
 
-Durante o desenvolvimento, fiquei responsável principalmente pela criação das telas utilizando Streamlit, elaboração dos diagramas MR e MER, estruturação do banco de dados, além de participar de grande parte do desenvolvimento e implementação do CRUD do sistema.
+Durante o desenvolvimento, fiquei responsável principalmente pela criação das telas utilizando Streamlit, pela elaboração dos diagramas MR e MER, por parte da estruturação do banco de dados e por grande parte do desenvolvimento e implementação do CRUD do sistema. Além disso, criei e implementei a view do banco de dados, um dos pré-requisitos do projeto.
 
-➡️ Para mais detalhes sobre o projeto, acesse [Aministrador-Condominios]().
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [Gerenciador-Condominios](https://github.com/rute-fernds/Gerenciador-Condominios).
 
 ### 📊 Sistemas da Informação (SI)
 
