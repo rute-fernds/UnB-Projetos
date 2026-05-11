@@ -7,7 +7,7 @@ Alguns projetos foram desenvolvidos individualmente e outros em equipe (trabalho
 
 ## 📅 2023.2 - 1° Semestre
 
-### 🖥️ Algoritmo e Programação de Computadores (APC)
+### 🖥️ Algoritmo e Programação de Computadores (APC)  ![Individual](https://img.shields.io/badge/Projeto-Individual-blue)
 
 Como projeto final da disciplina de APC, desenvolvi o jogo Asteroid Universe baseado no famoso Space Invaders, utilizando a linguagem de programação Python jutamento da biblioteca Pygame. 
 
@@ -15,7 +15,7 @@ O intuito desse projeto foi aplicar, de forma prática, conceitos fundamentais d
 
 ➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [Asteroid Universe](https://github.com/rute-fernds/Asteroid-Universe)
 
-### ⚙️ Introdução aos Sistemas Computacionais (ISC)
+### ⚙️ Introdução aos Sistemas Computacionais (ISC) ![Grupo](https://img.shields.io/badge/Projeto-Em%20Grupo-orange)
 
 Durante a disciplina de ISC, desenvolvi, em um projeto em grupo, um jogo em Assembly na arquitetura RISC-V. 
 
