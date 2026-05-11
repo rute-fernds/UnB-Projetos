@@ -34,7 +34,7 @@ Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalm
 
 Para o desenvolvimento desse sistema, foi utilizado o software Quartus II para a implementação do código em linguagem de descrição de hardware (Verilog) e dos circuitos digitais, juntamente com a placa FPGA DE2, da Altera, para a síntese e verificação do hardware.
 
-➡️ Para mais detalhes sobre o projeto, acesse [LCL]().
+➡️ Para mais detalhes sobre o projeto, acesse [LCL](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1/Projeto%20Final%20-%20LCL).
 
 ---
 
