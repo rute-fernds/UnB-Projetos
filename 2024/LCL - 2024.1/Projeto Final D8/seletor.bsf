@@ -1,0 +1,246 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 248 448)
+	(text "seletor" (rect 5 0 30 12)(font "Arial" ))
+	(text "inst" (rect 8 416 20 428)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A" (rect 0 0 8 12)(font "Arial" ))
+		(text "A" (rect 21 27 29 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B" (rect 0 0 5 12)(font "Arial" ))
+		(text "B" (rect 21 43 26 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "C" (rect 0 0 7 12)(font "Arial" ))
+		(text "C" (rect 21 59 28 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "timer_s1[6..0]" (rect 0 0 54 12)(font "Arial" ))
+		(text "timer_s1[6..0]" (rect 21 75 75 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "timer_s2[6..0]" (rect 0 0 55 12)(font "Arial" ))
+		(text "timer_s2[6..0]" (rect 21 91 76 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "timer_m1[6..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "timer_m1[6..0]" (rect 21 107 78 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "timer_m2[6..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "timer_m2[6..0]" (rect 21 123 80 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "timer_h1[6..0]" (rect 0 0 54 12)(font "Arial" ))
+		(text "timer_h1[6..0]" (rect 21 139 75 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "timer_h2[6..0]" (rect 0 0 55 12)(font "Arial" ))
+		(text "timer_h2[6..0]" (rect 21 155 76 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "relogio_c1[6..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "relogio_c1[6..0]" (rect 21 171 80 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "relogio_c2[6..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "relogio_c2[6..0]" (rect 21 187 81 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "relogio_s1[6..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "relogio_s1[6..0]" (rect 21 203 80 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "relogio_s2[6..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "relogio_s2[6..0]" (rect 21 219 81 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "relogio_m1[6..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "relogio_m1[6..0]" (rect 21 235 83 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "relogio_m2[6..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "relogio_m2[6..0]" (rect 21 251 84 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "relogio_h1[6..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "relogio_h1[6..0]" (rect 21 267 80 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "relogio_h2[6..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "relogio_h2[6..0]" (rect 21 283 81 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "cronometro_c1[6..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "cronometro_c1[6..0]" (rect 21 299 101 311)(font "Arial" ))
+		(line (pt 0 304)(pt 16 304)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "cronometro_c2[6..0]" (rect 0 0 81 12)(font "Arial" ))
+		(text "cronometro_c2[6..0]" (rect 21 315 102 327)(font "Arial" ))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "cronometro_s1[6..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "cronometro_s1[6..0]" (rect 21 331 101 343)(font "Arial" ))
+		(line (pt 0 336)(pt 16 336)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "cronometro_s2[6..0]" (rect 0 0 81 12)(font "Arial" ))
+		(text "cronometro_s2[6..0]" (rect 21 347 102 359)(font "Arial" ))
+		(line (pt 0 352)(pt 16 352)(line_width 3))
+	)
+	(port
+		(pt 0 368)
+		(input)
+		(text "cronometro_m1[6..0]" (rect 0 0 83 12)(font "Arial" ))
+		(text "cronometro_m1[6..0]" (rect 21 363 104 375)(font "Arial" ))
+		(line (pt 0 368)(pt 16 368)(line_width 3))
+	)
+	(port
+		(pt 0 384)
+		(input)
+		(text "cronometro_m2[6..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "cronometro_m2[6..0]" (rect 21 379 105 391)(font "Arial" ))
+		(line (pt 0 384)(pt 16 384)(line_width 3))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "hex_0[6..0]" (rect 0 0 44 12)(font "Arial" ))
+		(text "hex_0[6..0]" (rect 167 27 211 39)(font "Arial" ))
+		(line (pt 232 32)(pt 216 32)(line_width 3))
+	)
+	(port
+		(pt 232 48)
+		(output)
+		(text "hex_1[6..0]" (rect 0 0 43 12)(font "Arial" ))
+		(text "hex_1[6..0]" (rect 168 43 211 55)(font "Arial" ))
+		(line (pt 232 48)(pt 216 48)(line_width 3))
+	)
+	(port
+		(pt 232 64)
+		(output)
+		(text "hex_2[6..0]" (rect 0 0 44 12)(font "Arial" ))
+		(text "hex_2[6..0]" (rect 167 59 211 71)(font "Arial" ))
+		(line (pt 232 64)(pt 216 64)(line_width 3))
+	)
+	(port
+		(pt 232 80)
+		(output)
+		(text "hex_3[6..0]" (rect 0 0 44 12)(font "Arial" ))
+		(text "hex_3[6..0]" (rect 167 75 211 87)(font "Arial" ))
+		(line (pt 232 80)(pt 216 80)(line_width 3))
+	)
+	(port
+		(pt 232 96)
+		(output)
+		(text "hex_4[6..0]" (rect 0 0 46 12)(font "Arial" ))
+		(text "hex_4[6..0]" (rect 165 91 211 103)(font "Arial" ))
+		(line (pt 232 96)(pt 216 96)(line_width 3))
+	)
+	(port
+		(pt 232 112)
+		(output)
+		(text "hex_5[6..0]" (rect 0 0 44 12)(font "Arial" ))
+		(text "hex_5[6..0]" (rect 167 107 211 119)(font "Arial" ))
+		(line (pt 232 112)(pt 216 112)(line_width 3))
+	)
+	(port
+		(pt 232 128)
+		(output)
+		(text "hex_6[6..0]" (rect 0 0 44 12)(font "Arial" ))
+		(text "hex_6[6..0]" (rect 167 123 211 135)(font "Arial" ))
+		(line (pt 232 128)(pt 216 128)(line_width 3))
+	)
+	(port
+		(pt 232 144)
+		(output)
+		(text "hex_7[6..0]" (rect 0 0 44 12)(font "Arial" ))
+		(text "hex_7[6..0]" (rect 167 139 211 151)(font "Arial" ))
+		(line (pt 232 144)(pt 216 144)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 416)(line_width 1))
+	)
+)

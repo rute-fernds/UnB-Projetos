@@ -1,0 +1,573 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'timer:inst|fdiv_timer:inst9|clkout'
+Slack : -3.964
+TNS   : -6.979
+
+Type  : Slow Model Setup 'timer:inst|contador9_0:inwarde|count[0]'
+Slack : -3.345
+TNS   : -5.241
+
+Type  : Slow Model Setup 'timer:inst|contador_decrescente:inst45|count[0]'
+Slack : -3.197
+TNS   : -5.055
+
+Type  : Slow Model Setup 'timer:inst|contador9_0:instsa|count[0]'
+Slack : -3.161
+TNS   : -4.829
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -2.836
+TNS   : -181.190
+
+Type  : Slow Model Setup 'timer:inst|contador5_0:instdwq|count[0]'
+Slack : -2.782
+TNS   : -3.628
+
+Type  : Slow Model Setup 'timer:inst|contador5_0:inst24|count[0]'
+Slack : -2.637
+TNS   : -3.245
+
+Type  : Slow Model Setup 'relogio:inst5|contador0_9:inst16|count[0]'
+Slack : -0.207
+TNS   : -0.473
+
+Type  : Slow Model Setup 'relogio:inst5|contador0_9:inst53|count[0]'
+Slack : -0.168
+TNS   : -0.213
+
+Type  : Slow Model Setup 'cronometro:inst4|contador0_9:inst29|count[0]'
+Slack : -0.128
+TNS   : -0.351
+
+Type  : Slow Model Setup 'relogio:inst5|contador0_5:inst8|count[0]'
+Slack : -0.089
+TNS   : -0.165
+
+Type  : Slow Model Setup 'relogio:inst5|contador0_9:inst9|count[0]'
+Slack : -0.077
+TNS   : -0.205
+
+Type  : Slow Model Setup 'cronometro:inst4|contador0_9:inst1|count[0]'
+Slack : -0.075
+TNS   : -0.147
+
+Type  : Slow Model Setup 'cronometro:inst4|contador0_5:inst21|count[0]'
+Slack : -0.068
+TNS   : -0.111
+
+Type  : Slow Model Setup 'cronometro:inst4|contador0_9:inst3|count[0]'
+Slack : -0.067
+TNS   : -0.173
+
+Type  : Slow Model Setup 'relogio:inst5|contador0_9:instFDS2|count[0]'
+Slack : -0.067
+TNS   : -0.099
+
+Type  : Slow Model Setup 'relogio:inst5|contador0_9:inst|count[0]'
+Slack : -0.065
+TNS   : -0.148
+
+Type  : Slow Model Setup 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : -0.052
+TNS   : -0.101
+
+Type  : Slow Model Setup 'cronometro:inst4|fdiv_cronometro:inst13|clkout'
+Slack : -0.051
+TNS   : -0.084
+
+Type  : Slow Model Setup 'cronometro:inst4|contador0_9:inst11|count[0]'
+Slack : -0.050
+TNS   : -0.085
+
+Type  : Slow Model Setup 'relogio:inst5|fdiv_relogio:inst49|clkout'
+Slack : -0.048
+TNS   : -0.090
+
+Type  : Slow Model Setup 'cronometro:inst4|inst23'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow Model Setup 'timer:inst|inst66'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow Model Hold 'timer:inst|contador5_0:inst24|count[0]'
+Slack : -5.884
+TNS   : -24.245
+
+Type  : Slow Model Hold 'timer:inst|contador5_0:instdwq|count[0]'
+Slack : -5.739
+TNS   : -22.376
+
+Type  : Slow Model Hold 'timer:inst|contador9_0:instsa|count[0]'
+Slack : -5.360
+TNS   : -22.953
+
+Type  : Slow Model Hold 'timer:inst|contador_decrescente:inst45|count[0]'
+Slack : -5.324
+TNS   : -16.605
+
+Type  : Slow Model Hold 'timer:inst|fdiv_timer:inst9|clkout'
+Slack : -4.557
+TNS   : -13.537
+
+Type  : Slow Model Hold 'timer:inst|contador9_0:inwarde|count[0]'
+Slack : -4.479
+TNS   : -14.351
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -3.533
+TNS   : -10.566
+
+Type  : Slow Model Hold 'cronometro:inst4|contador0_9:inst1|count[0]'
+Slack : -2.393
+TNS   : -6.188
+
+Type  : Slow Model Hold 'relogio:inst5|contador0_9:instFDS2|count[0]'
+Slack : -2.109
+TNS   : -6.923
+
+Type  : Slow Model Hold 'cronometro:inst4|fdiv_cronometro:inst13|clkout'
+Slack : -2.091
+TNS   : -6.854
+
+Type  : Slow Model Hold 'relogio:inst5|contador0_5:inst8|count[0]'
+Slack : -1.773
+TNS   : -5.467
+
+Type  : Slow Model Hold 'cronometro:inst4|contador0_5:inst21|count[0]'
+Slack : -1.714
+TNS   : -5.357
+
+Type  : Slow Model Hold 'relogio:inst5|contador0_9:inst|count[0]'
+Slack : -1.698
+TNS   : -3.572
+
+Type  : Slow Model Hold 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : -1.615
+TNS   : -4.917
+
+Type  : Slow Model Hold 'cronometro:inst4|contador0_9:inst11|count[0]'
+Slack : -1.611
+TNS   : -4.230
+
+Type  : Slow Model Hold 'relogio:inst5|contador0_9:inst53|count[0]'
+Slack : -1.601
+TNS   : -4.770
+
+Type  : Slow Model Hold 'relogio:inst5|contador0_9:inst9|count[0]'
+Slack : -1.431
+TNS   : -4.052
+
+Type  : Slow Model Hold 'cronometro:inst4|contador0_9:inst3|count[0]'
+Slack : -1.334
+TNS   : -3.355
+
+Type  : Slow Model Hold 'relogio:inst5|fdiv_relogio:inst49|clkout'
+Slack : -0.679
+TNS   : -1.185
+
+Type  : Slow Model Hold 'cronometro:inst4|contador0_9:inst29|count[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'cronometro:inst4|inst23'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'relogio:inst5|contador0_9:inst16|count[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'timer:inst|inst66'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : -2.737
+TNS   : -10.948
+
+Type  : Slow Model Removal 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -100.380
+
+Type  : Slow Model Minimum Pulse Width 'timer:inst|contador5_0:inst24|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Slow Model Minimum Pulse Width 'timer:inst|contador5_0:instdwq|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Slow Model Minimum Pulse Width 'timer:inst|contador9_0:instsa|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Slow Model Minimum Pulse Width 'timer:inst|contador_decrescente:inst45|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Slow Model Minimum Pulse Width 'timer:inst|contador9_0:inwarde|count[0]'
+Slack : -0.500
+TNS   : -7.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:inst4|contador0_5:inst21|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst11|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst1|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst29|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst3|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:inst4|fdiv_cronometro:inst13|clkout'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|contador0_5:inst8|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst16|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst53|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst9|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|contador0_9:instFDS2|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'relogio:inst5|fdiv_relogio:inst49|clkout'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'timer:inst|fdiv_timer:inst9|clkout'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:inst4|inst23'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'timer:inst|inst66'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Setup 'timer:inst|fdiv_timer:inst9|clkout'
+Slack : -1.596
+TNS   : -1.823
+
+Type  : Fast Model Setup 'timer:inst|contador9_0:inwarde|count[0]'
+Slack : -1.347
+TNS   : -1.347
+
+Type  : Fast Model Setup 'timer:inst|contador_decrescente:inst45|count[0]'
+Slack : -1.286
+TNS   : -1.286
+
+Type  : Fast Model Setup 'timer:inst|contador9_0:instsa|count[0]'
+Slack : -1.233
+TNS   : -1.233
+
+Type  : Fast Model Setup 'timer:inst|contador5_0:instdwq|count[0]'
+Slack : -1.094
+TNS   : -1.094
+
+Type  : Fast Model Setup 'timer:inst|contador5_0:inst24|count[0]'
+Slack : -1.039
+TNS   : -1.039
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.850
+TNS   : -36.658
+
+Type  : Fast Model Setup 'relogio:inst5|contador0_9:inst16|count[0]'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Fast Model Setup 'relogio:inst5|contador0_9:inst53|count[0]'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cronometro:inst4|contador0_9:inst29|count[0]'
+Slack : 0.473
+TNS   : 0.000
+
+Type  : Fast Model Setup 'relogio:inst5|contador0_5:inst8|count[0]'
+Slack : 0.489
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cronometro:inst4|contador0_9:inst1|count[0]'
+Slack : 0.493
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cronometro:inst4|contador0_9:inst3|count[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'relogio:inst5|contador0_9:instFDS2|count[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'relogio:inst5|contador0_9:inst|count[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'relogio:inst5|contador0_9:inst9|count[0]'
+Slack : 0.501
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cronometro:inst4|contador0_5:inst21|count[0]'
+Slack : 0.508
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cronometro:inst4|fdiv_cronometro:inst13|clkout'
+Slack : 0.508
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cronometro:inst4|contador0_9:inst11|count[0]'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Fast Model Setup 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Fast Model Setup 'relogio:inst5|fdiv_relogio:inst49|clkout'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cronometro:inst4|inst23'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Setup 'timer:inst|inst66'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Hold 'timer:inst|contador5_0:inst24|count[0]'
+Slack : -3.074
+TNS   : -12.807
+
+Type  : Fast Model Hold 'timer:inst|contador5_0:instdwq|count[0]'
+Slack : -3.019
+TNS   : -11.948
+
+Type  : Fast Model Hold 'timer:inst|contador9_0:instsa|count[0]'
+Slack : -2.880
+TNS   : -12.381
+
+Type  : Fast Model Hold 'timer:inst|contador_decrescente:inst45|count[0]'
+Slack : -2.827
+TNS   : -8.918
+
+Type  : Fast Model Hold 'timer:inst|fdiv_timer:inst9|clkout'
+Slack : -2.517
+TNS   : -7.678
+
+Type  : Fast Model Hold 'timer:inst|contador9_0:inwarde|count[0]'
+Slack : -2.489
+TNS   : -7.901
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -2.063
+TNS   : -6.161
+
+Type  : Fast Model Hold 'cronometro:inst4|contador0_9:inst1|count[0]'
+Slack : -1.184
+TNS   : -3.328
+
+Type  : Fast Model Hold 'relogio:inst5|contador0_9:instFDS2|count[0]'
+Slack : -1.053
+TNS   : -3.625
+
+Type  : Fast Model Hold 'cronometro:inst4|fdiv_cronometro:inst13|clkout'
+Slack : -1.030
+TNS   : -3.541
+
+Type  : Fast Model Hold 'relogio:inst5|contador0_5:inst8|count[0]'
+Slack : -0.885
+TNS   : -2.902
+
+Type  : Fast Model Hold 'cronometro:inst4|contador0_5:inst21|count[0]'
+Slack : -0.880
+TNS   : -2.951
+
+Type  : Fast Model Hold 'relogio:inst5|contador0_9:inst|count[0]'
+Slack : -0.837
+TNS   : -2.052
+
+Type  : Fast Model Hold 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : -0.834
+TNS   : -2.760
+
+Type  : Fast Model Hold 'cronometro:inst4|contador0_9:inst11|count[0]'
+Slack : -0.827
+TNS   : -2.438
+
+Type  : Fast Model Hold 'relogio:inst5|contador0_9:inst53|count[0]'
+Slack : -0.818
+TNS   : -2.623
+
+Type  : Fast Model Hold 'relogio:inst5|contador0_9:inst9|count[0]'
+Slack : -0.726
+TNS   : -2.256
+
+Type  : Fast Model Hold 'cronometro:inst4|contador0_9:inst3|count[0]'
+Slack : -0.685
+TNS   : -1.933
+
+Type  : Fast Model Hold 'relogio:inst5|fdiv_relogio:inst49|clkout'
+Slack : -0.392
+TNS   : -0.976
+
+Type  : Fast Model Hold 'cronometro:inst4|contador0_9:inst29|count[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'cronometro:inst4|inst23'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'relogio:inst5|contador0_9:inst16|count[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'timer:inst|inst66'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : -1.051
+TNS   : -4.204
+
+Type  : Fast Model Removal 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : 0.078
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -100.380
+
+Type  : Fast Model Minimum Pulse Width 'timer:inst|contador5_0:inst24|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'timer:inst|contador5_0:instdwq|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'timer:inst|contador9_0:instsa|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'timer:inst|contador_decrescente:inst45|count[0]'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'timer:inst|contador9_0:inwarde|count[0]'
+Slack : -0.500
+TNS   : -7.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:inst4|contador0_5:inst21|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst11|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst1|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst29|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:inst4|contador0_9:inst3|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:inst4|fdiv_cronometro:inst13|clkout'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|contador0_5:inst15|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|contador0_5:inst8|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst16|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst53|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst9|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|contador0_9:instFDS2|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|contador0_9:inst|count[0]'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'relogio:inst5|fdiv_relogio:inst49|clkout'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'timer:inst|fdiv_timer:inst9|clkout'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:inst4|inst23'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'timer:inst|inst66'
+Slack : -0.500
+TNS   : -1.000
+
+------------------------------------------------------------

@@ -1,0 +1,18 @@
+module relogio_digital (
+    input wire A, B, C,            // Entradas de controle
+    input wire [5:0] clock_out,    // Saídas do relógio
+    input wire [5:0] timer_out,    // Saídas do timer
+    input wire [5:0] stopwatch_out,// Saídas do cronômetro
+    output reg [5:0] final_out     // Saídas finais selecionadas
+);
+
+    always @(*) begin
+        case ({A, B, C})
+            3'b000: final_out = clock_out;     // Seleciona o relógio
+            3'b001: final_out =  stopwatch_out;     // Seleciona o timer
+            3'b010: final_out = timer_out; // Seleciona o cronômetro
+            default: final_out = 6'b000000;    // Valor padrão (se as combinações forem inválidas)
+        endcase
+    end
+
+endmodule

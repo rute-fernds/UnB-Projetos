@@ -1,0 +1,15 @@
+module rom(
+	input [3:0] endereco,
+	output [5:0] dados);
+	
+always_comb
+	casex (endereco)
+		//Estado - RelÃ³gio
+		4'b 0_000: dados = 6'b 100001;
+		4'b 0_001: dados = 6'b 010010;
+		4'b 0_010: dados = 6'b 001001;
+		4'b 1_xxx: dados = 6'b 000001;
+		
+		default: dados =  dados = 6'b 100001;
+	endcase
+endmodule

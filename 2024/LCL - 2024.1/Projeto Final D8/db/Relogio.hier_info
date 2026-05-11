@@ -1,0 +1,1302 @@
+|relogio_final
+GPIO_1[0] <= timer:inst.GPIO_1[0]
+CLOCK_50 => controle:inst2.CLOCK_50
+SW[15] => controle:inst2.SW[15]
+SW[15] => seletor:inst3.C
+SW[16] => controle:inst2.SW[16]
+SW[16] => seletor:inst3.B
+SW[17] => controle:inst2.SW[17]
+SW[17] => seletor:inst3.A
+KEY[1] => cronometro:inst4.start_stop
+KEY[2] => timer:inst.KEY[2]
+KEY[2] => cronometro:inst4.reset
+KEY[2] => relogio:inst5.KEY[2]
+KEY[3] => timer:inst.KEY[3]
+HEX0[0] <= hex_0[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= hex_0[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= hex_0[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= hex_0[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= hex_0[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= hex_0[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] <= hex_0[6].DB_MAX_OUTPUT_PORT_TYPE
+HEX1[0] <= hex_1[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX1[1] <= hex_1[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX1[2] <= hex_1[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX1[3] <= hex_1[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX1[4] <= hex_1[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX1[5] <= hex_1[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX1[6] <= hex_1[6].DB_MAX_OUTPUT_PORT_TYPE
+HEX2[0] <= hex_2[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX2[1] <= hex_2[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX2[2] <= hex_2[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX2[3] <= hex_2[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX2[4] <= hex_2[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX2[5] <= hex_2[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX2[6] <= hex_2[6].DB_MAX_OUTPUT_PORT_TYPE
+HEX3[0] <= hex_3[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX3[1] <= hex_3[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX3[2] <= hex_3[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX3[3] <= hex_3[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX3[4] <= hex_3[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX3[5] <= hex_3[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX3[6] <= hex_3[6].DB_MAX_OUTPUT_PORT_TYPE
+HEX4[0] <= hex_4[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX4[1] <= hex_4[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX4[2] <= hex_4[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX4[3] <= hex_4[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX4[4] <= hex_4[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX4[5] <= hex_4[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX4[6] <= hex_4[6].DB_MAX_OUTPUT_PORT_TYPE
+HEX5[0] <= hex_5[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX5[1] <= hex_5[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX5[2] <= hex_5[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX5[3] <= hex_5[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX5[4] <= hex_5[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX5[5] <= hex_5[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX5[6] <= hex_5[6].DB_MAX_OUTPUT_PORT_TYPE
+HEX6[0] <= hex_6[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX6[1] <= hex_6[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX6[2] <= hex_6[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX6[3] <= hex_6[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX6[4] <= hex_6[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX6[5] <= hex_6[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX6[6] <= hex_6[6].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[0] <= hex_7[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[1] <= hex_7[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[2] <= hex_7[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[3] <= hex_7[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[4] <= hex_7[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[5] <= hex_7[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[6] <= hex_7[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst
+GPIO_1[0] <= inst94.DB_MAX_OUTPUT_PORT_TYPE
+CLOCK_50 => fdiv_timer:inst9.clkin
+KEY[2] => insDWQt.IN0
+KEY[3] => inst67.IN1
+HEX2[0] <= decoder7:inst7.Out[0]
+HEX2[1] <= decoder7:inst7.Out[1]
+HEX2[2] <= decoder7:inst7.Out[2]
+HEX2[3] <= decoder7:inst7.Out[3]
+HEX2[4] <= decoder7:inst7.Out[4]
+HEX2[5] <= decoder7:inst7.Out[5]
+HEX2[6] <= decoder7:inst7.Out[6]
+HEX3[0] <= decoder7:inst8.Out[0]
+HEX3[1] <= decoder7:inst8.Out[1]
+HEX3[2] <= decoder7:inst8.Out[2]
+HEX3[3] <= decoder7:inst8.Out[3]
+HEX3[4] <= decoder7:inst8.Out[4]
+HEX3[5] <= decoder7:inst8.Out[5]
+HEX3[6] <= decoder7:inst8.Out[6]
+HEX4[0] <= decoder7:inst28.Out[0]
+HEX4[1] <= decoder7:inst28.Out[1]
+HEX4[2] <= decoder7:inst28.Out[2]
+HEX4[3] <= decoder7:inst28.Out[3]
+HEX4[4] <= decoder7:inst28.Out[4]
+HEX4[5] <= decoder7:inst28.Out[5]
+HEX4[6] <= decoder7:inst28.Out[6]
+HEX5[0] <= decoder7:inst38.Out[0]
+HEX5[1] <= decoder7:inst38.Out[1]
+HEX5[2] <= decoder7:inst38.Out[2]
+HEX5[3] <= decoder7:inst38.Out[3]
+HEX5[4] <= decoder7:inst38.Out[4]
+HEX5[5] <= decoder7:inst38.Out[5]
+HEX5[6] <= decoder7:inst38.Out[6]
+HEX6[0] <= decoder7:inst39.Out[0]
+HEX6[1] <= decoder7:inst39.Out[1]
+HEX6[2] <= decoder7:inst39.Out[2]
+HEX6[3] <= decoder7:inst39.Out[3]
+HEX6[4] <= decoder7:inst39.Out[4]
+HEX6[5] <= decoder7:inst39.Out[5]
+HEX6[6] <= decoder7:inst39.Out[6]
+HEX7[0] <= decoder7:inst40.Out[0]
+HEX7[1] <= decoder7:inst40.Out[1]
+HEX7[2] <= decoder7:inst40.Out[2]
+HEX7[3] <= decoder7:inst40.Out[3]
+HEX7[4] <= decoder7:inst40.Out[4]
+HEX7[5] <= decoder7:inst40.Out[5]
+HEX7[6] <= decoder7:inst40.Out[6]
+
+
+|relogio_final|timer:inst|contador9_0:inwarde
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.PRESET
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.PRESET
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|fdiv_timer:inst9
+clkin => clkout~reg0.CLK
+clkin => cont[0].CLK
+clkin => cont[1].CLK
+clkin => cont[2].CLK
+clkin => cont[3].CLK
+clkin => cont[4].CLK
+clkin => cont[5].CLK
+clkin => cont[6].CLK
+clkin => cont[7].CLK
+clkin => cont[8].CLK
+clkin => cont[9].CLK
+clkin => cont[10].CLK
+clkin => cont[11].CLK
+clkin => cont[12].CLK
+clkin => cont[13].CLK
+clkin => cont[14].CLK
+clkin => cont[15].CLK
+clkin => cont[16].CLK
+clkin => cont[17].CLK
+clkin => cont[18].CLK
+clkin => cont[19].CLK
+clkin => cont[20].CLK
+clkin => cont[21].CLK
+clkin => cont[22].CLK
+clkin => cont[23].CLK
+clkin => cont[24].CLK
+clkin => cont[25].CLK
+clkin => cont[26].CLK
+clkin => cont[27].CLK
+clkin => cont[28].CLK
+clkin => cont[29].CLK
+clkin => cont[30].CLK
+clkin => cont[31].CLK
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|contador5_0:instdwq
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.PRESET
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.PRESET
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|contador9_0:instsa
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.PRESET
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.PRESET
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|contador5_0:inst24
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.PRESET
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.PRESET
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|contador_decrescente:inst45
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.PRESET
+reset => count[1]~reg0.PRESET
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|contador2_0:inst29
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.PRESET
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|decoder7:inst7
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|decoder7:inst8
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|decoder7:inst28
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|decoder7:inst38
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|decoder7:inst39
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|timer:inst|decoder7:inst40
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|controle:inst2
+relogio <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLOCK_50 => inst.IN0
+CLOCK_50 => inst8.IN3
+CLOCK_50 => inst9.IN0
+SW[15] => inst7.IN0
+SW[15] => inst8.IN0
+SW[16] => inst6.IN0
+SW[16] => inst9.IN1
+SW[17] => inst5.IN0
+cronometro <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+timer <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|seletor:inst3
+A => Mux0.IN6
+A => Mux1.IN6
+A => Mux2.IN6
+A => Mux3.IN6
+A => Mux4.IN6
+A => Mux5.IN6
+A => Mux6.IN6
+A => Mux7.IN6
+A => Mux8.IN6
+A => Mux9.IN6
+A => Mux10.IN6
+A => Mux11.IN6
+A => Mux12.IN6
+A => Mux13.IN6
+A => Mux14.IN5
+A => Mux15.IN5
+A => Mux16.IN5
+A => Mux17.IN5
+A => Mux18.IN5
+A => Mux19.IN5
+A => Mux20.IN5
+A => Mux21.IN5
+A => Mux22.IN5
+A => Mux23.IN5
+A => Mux24.IN5
+A => Mux25.IN5
+A => Mux26.IN5
+A => Mux27.IN5
+A => Mux28.IN5
+A => Mux29.IN5
+A => Mux30.IN5
+A => Mux31.IN5
+A => Mux32.IN5
+A => Mux33.IN5
+A => Mux34.IN5
+A => Mux35.IN5
+A => Mux36.IN5
+A => Mux37.IN5
+A => Mux38.IN5
+A => Mux39.IN5
+A => Mux40.IN5
+A => Mux41.IN5
+A => Mux42.IN6
+A => Mux43.IN6
+A => Mux44.IN6
+A => Mux45.IN6
+A => Mux46.IN6
+A => Mux47.IN6
+A => Mux48.IN6
+A => Mux49.IN6
+A => Mux50.IN6
+A => Mux51.IN6
+A => Mux52.IN6
+A => Mux53.IN6
+A => Mux54.IN6
+A => Mux55.IN6
+B => Mux0.IN7
+B => Mux1.IN7
+B => Mux2.IN7
+B => Mux3.IN7
+B => Mux4.IN7
+B => Mux5.IN7
+B => Mux6.IN7
+B => Mux7.IN7
+B => Mux8.IN7
+B => Mux9.IN7
+B => Mux10.IN7
+B => Mux11.IN7
+B => Mux12.IN7
+B => Mux13.IN7
+B => Mux14.IN6
+B => Mux15.IN6
+B => Mux16.IN6
+B => Mux17.IN6
+B => Mux18.IN6
+B => Mux19.IN6
+B => Mux20.IN6
+B => Mux21.IN6
+B => Mux22.IN6
+B => Mux23.IN6
+B => Mux24.IN6
+B => Mux25.IN6
+B => Mux26.IN6
+B => Mux27.IN6
+B => Mux28.IN6
+B => Mux29.IN6
+B => Mux30.IN6
+B => Mux31.IN6
+B => Mux32.IN6
+B => Mux33.IN6
+B => Mux34.IN6
+B => Mux35.IN6
+B => Mux36.IN6
+B => Mux37.IN6
+B => Mux38.IN6
+B => Mux39.IN6
+B => Mux40.IN6
+B => Mux41.IN6
+B => Mux42.IN7
+B => Mux43.IN7
+B => Mux44.IN7
+B => Mux45.IN7
+B => Mux46.IN7
+B => Mux47.IN7
+B => Mux48.IN7
+B => Mux49.IN7
+B => Mux50.IN7
+B => Mux51.IN7
+B => Mux52.IN7
+B => Mux53.IN7
+B => Mux54.IN7
+B => Mux55.IN7
+C => Mux0.IN8
+C => Mux1.IN8
+C => Mux2.IN8
+C => Mux3.IN8
+C => Mux4.IN8
+C => Mux5.IN8
+C => Mux6.IN8
+C => Mux7.IN8
+C => Mux8.IN8
+C => Mux9.IN8
+C => Mux10.IN8
+C => Mux11.IN8
+C => Mux12.IN8
+C => Mux13.IN8
+C => Mux14.IN7
+C => Mux15.IN7
+C => Mux16.IN7
+C => Mux17.IN7
+C => Mux18.IN7
+C => Mux19.IN7
+C => Mux20.IN7
+C => Mux21.IN7
+C => Mux22.IN7
+C => Mux23.IN7
+C => Mux24.IN7
+C => Mux25.IN7
+C => Mux26.IN7
+C => Mux27.IN7
+C => Mux28.IN7
+C => Mux29.IN7
+C => Mux30.IN7
+C => Mux31.IN7
+C => Mux32.IN7
+C => Mux33.IN7
+C => Mux34.IN7
+C => Mux35.IN7
+C => Mux36.IN7
+C => Mux37.IN7
+C => Mux38.IN7
+C => Mux39.IN7
+C => Mux40.IN7
+C => Mux41.IN7
+C => Mux42.IN8
+C => Mux43.IN8
+C => Mux44.IN8
+C => Mux45.IN8
+C => Mux46.IN8
+C => Mux47.IN8
+C => Mux48.IN8
+C => Mux49.IN8
+C => Mux50.IN8
+C => Mux51.IN8
+C => Mux52.IN8
+C => Mux53.IN8
+C => Mux54.IN8
+C => Mux55.IN8
+timer_s1[0] => Mux20.IN8
+timer_s1[1] => Mux19.IN8
+timer_s1[2] => Mux18.IN8
+timer_s1[3] => Mux17.IN8
+timer_s1[4] => Mux16.IN8
+timer_s1[5] => Mux15.IN8
+timer_s1[6] => Mux14.IN8
+timer_s2[0] => Mux27.IN8
+timer_s2[1] => Mux26.IN8
+timer_s2[2] => Mux25.IN8
+timer_s2[3] => Mux24.IN8
+timer_s2[4] => Mux23.IN8
+timer_s2[5] => Mux22.IN8
+timer_s2[6] => Mux21.IN8
+timer_m1[0] => Mux34.IN8
+timer_m1[1] => Mux33.IN8
+timer_m1[2] => Mux32.IN8
+timer_m1[3] => Mux31.IN8
+timer_m1[4] => Mux30.IN8
+timer_m1[5] => Mux29.IN8
+timer_m1[6] => Mux28.IN8
+timer_m2[0] => Mux41.IN8
+timer_m2[1] => Mux40.IN8
+timer_m2[2] => Mux39.IN8
+timer_m2[3] => Mux38.IN8
+timer_m2[4] => Mux37.IN8
+timer_m2[5] => Mux36.IN8
+timer_m2[6] => Mux35.IN8
+timer_h1[0] => Mux48.IN9
+timer_h1[1] => Mux47.IN9
+timer_h1[2] => Mux46.IN9
+timer_h1[3] => Mux45.IN9
+timer_h1[4] => Mux44.IN9
+timer_h1[5] => Mux43.IN9
+timer_h1[6] => Mux42.IN9
+timer_h2[0] => Mux55.IN9
+timer_h2[1] => Mux54.IN9
+timer_h2[2] => Mux53.IN9
+timer_h2[3] => Mux52.IN9
+timer_h2[4] => Mux51.IN9
+timer_h2[5] => Mux50.IN9
+timer_h2[6] => Mux49.IN9
+relogio_c1[0] => Mux6.IN9
+relogio_c1[1] => Mux5.IN9
+relogio_c1[2] => Mux4.IN9
+relogio_c1[3] => Mux3.IN9
+relogio_c1[4] => Mux2.IN9
+relogio_c1[5] => Mux1.IN9
+relogio_c1[6] => Mux0.IN9
+relogio_c2[0] => Mux13.IN9
+relogio_c2[1] => Mux12.IN9
+relogio_c2[2] => Mux11.IN9
+relogio_c2[3] => Mux10.IN9
+relogio_c2[4] => Mux9.IN9
+relogio_c2[5] => Mux8.IN9
+relogio_c2[6] => Mux7.IN9
+relogio_s1[0] => Mux20.IN9
+relogio_s1[1] => Mux19.IN9
+relogio_s1[2] => Mux18.IN9
+relogio_s1[3] => Mux17.IN9
+relogio_s1[4] => Mux16.IN9
+relogio_s1[5] => Mux15.IN9
+relogio_s1[6] => Mux14.IN9
+relogio_s2[0] => Mux27.IN9
+relogio_s2[1] => Mux26.IN9
+relogio_s2[2] => Mux25.IN9
+relogio_s2[3] => Mux24.IN9
+relogio_s2[4] => Mux23.IN9
+relogio_s2[5] => Mux22.IN9
+relogio_s2[6] => Mux21.IN9
+relogio_m1[0] => Mux34.IN9
+relogio_m1[1] => Mux33.IN9
+relogio_m1[2] => Mux32.IN9
+relogio_m1[3] => Mux31.IN9
+relogio_m1[4] => Mux30.IN9
+relogio_m1[5] => Mux29.IN9
+relogio_m1[6] => Mux28.IN9
+relogio_m2[0] => Mux41.IN9
+relogio_m2[1] => Mux40.IN9
+relogio_m2[2] => Mux39.IN9
+relogio_m2[3] => Mux38.IN9
+relogio_m2[4] => Mux37.IN9
+relogio_m2[5] => Mux36.IN9
+relogio_m2[6] => Mux35.IN9
+relogio_h1[0] => Mux48.IN10
+relogio_h1[1] => Mux47.IN10
+relogio_h1[2] => Mux46.IN10
+relogio_h1[3] => Mux45.IN10
+relogio_h1[4] => Mux44.IN10
+relogio_h1[5] => Mux43.IN10
+relogio_h1[6] => Mux42.IN10
+relogio_h2[0] => Mux55.IN10
+relogio_h2[1] => Mux54.IN10
+relogio_h2[2] => Mux53.IN10
+relogio_h2[3] => Mux52.IN10
+relogio_h2[4] => Mux51.IN10
+relogio_h2[5] => Mux50.IN10
+relogio_h2[6] => Mux49.IN10
+cronometro_c1[0] => Mux6.IN10
+cronometro_c1[1] => Mux5.IN10
+cronometro_c1[2] => Mux4.IN10
+cronometro_c1[3] => Mux3.IN10
+cronometro_c1[4] => Mux2.IN10
+cronometro_c1[5] => Mux1.IN10
+cronometro_c1[6] => Mux0.IN10
+cronometro_c2[0] => Mux13.IN10
+cronometro_c2[1] => Mux12.IN10
+cronometro_c2[2] => Mux11.IN10
+cronometro_c2[3] => Mux10.IN10
+cronometro_c2[4] => Mux9.IN10
+cronometro_c2[5] => Mux8.IN10
+cronometro_c2[6] => Mux7.IN10
+cronometro_s1[0] => Mux20.IN10
+cronometro_s1[1] => Mux19.IN10
+cronometro_s1[2] => Mux18.IN10
+cronometro_s1[3] => Mux17.IN10
+cronometro_s1[4] => Mux16.IN10
+cronometro_s1[5] => Mux15.IN10
+cronometro_s1[6] => Mux14.IN10
+cronometro_s2[0] => Mux27.IN10
+cronometro_s2[1] => Mux26.IN10
+cronometro_s2[2] => Mux25.IN10
+cronometro_s2[3] => Mux24.IN10
+cronometro_s2[4] => Mux23.IN10
+cronometro_s2[5] => Mux22.IN10
+cronometro_s2[6] => Mux21.IN10
+cronometro_m1[0] => Mux34.IN10
+cronometro_m1[1] => Mux33.IN10
+cronometro_m1[2] => Mux32.IN10
+cronometro_m1[3] => Mux31.IN10
+cronometro_m1[4] => Mux30.IN10
+cronometro_m1[5] => Mux29.IN10
+cronometro_m1[6] => Mux28.IN10
+cronometro_m2[0] => Mux41.IN10
+cronometro_m2[1] => Mux40.IN10
+cronometro_m2[2] => Mux39.IN10
+cronometro_m2[3] => Mux38.IN10
+cronometro_m2[4] => Mux37.IN10
+cronometro_m2[5] => Mux36.IN10
+cronometro_m2[6] => Mux35.IN10
+hex_0[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+hex_0[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+hex_0[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+hex_0[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+hex_0[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+hex_0[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+hex_0[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+hex_1[0] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+hex_1[1] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+hex_1[2] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+hex_1[3] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+hex_1[4] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+hex_1[5] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+hex_1[6] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+hex_2[0] <= Mux20.DB_MAX_OUTPUT_PORT_TYPE
+hex_2[1] <= Mux19.DB_MAX_OUTPUT_PORT_TYPE
+hex_2[2] <= Mux18.DB_MAX_OUTPUT_PORT_TYPE
+hex_2[3] <= Mux17.DB_MAX_OUTPUT_PORT_TYPE
+hex_2[4] <= Mux16.DB_MAX_OUTPUT_PORT_TYPE
+hex_2[5] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+hex_2[6] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+hex_3[0] <= Mux27.DB_MAX_OUTPUT_PORT_TYPE
+hex_3[1] <= Mux26.DB_MAX_OUTPUT_PORT_TYPE
+hex_3[2] <= Mux25.DB_MAX_OUTPUT_PORT_TYPE
+hex_3[3] <= Mux24.DB_MAX_OUTPUT_PORT_TYPE
+hex_3[4] <= Mux23.DB_MAX_OUTPUT_PORT_TYPE
+hex_3[5] <= Mux22.DB_MAX_OUTPUT_PORT_TYPE
+hex_3[6] <= Mux21.DB_MAX_OUTPUT_PORT_TYPE
+hex_4[0] <= Mux34.DB_MAX_OUTPUT_PORT_TYPE
+hex_4[1] <= Mux33.DB_MAX_OUTPUT_PORT_TYPE
+hex_4[2] <= Mux32.DB_MAX_OUTPUT_PORT_TYPE
+hex_4[3] <= Mux31.DB_MAX_OUTPUT_PORT_TYPE
+hex_4[4] <= Mux30.DB_MAX_OUTPUT_PORT_TYPE
+hex_4[5] <= Mux29.DB_MAX_OUTPUT_PORT_TYPE
+hex_4[6] <= Mux28.DB_MAX_OUTPUT_PORT_TYPE
+hex_5[0] <= Mux41.DB_MAX_OUTPUT_PORT_TYPE
+hex_5[1] <= Mux40.DB_MAX_OUTPUT_PORT_TYPE
+hex_5[2] <= Mux39.DB_MAX_OUTPUT_PORT_TYPE
+hex_5[3] <= Mux38.DB_MAX_OUTPUT_PORT_TYPE
+hex_5[4] <= Mux37.DB_MAX_OUTPUT_PORT_TYPE
+hex_5[5] <= Mux36.DB_MAX_OUTPUT_PORT_TYPE
+hex_5[6] <= Mux35.DB_MAX_OUTPUT_PORT_TYPE
+hex_6[0] <= Mux48.DB_MAX_OUTPUT_PORT_TYPE
+hex_6[1] <= Mux47.DB_MAX_OUTPUT_PORT_TYPE
+hex_6[2] <= Mux46.DB_MAX_OUTPUT_PORT_TYPE
+hex_6[3] <= Mux45.DB_MAX_OUTPUT_PORT_TYPE
+hex_6[4] <= Mux44.DB_MAX_OUTPUT_PORT_TYPE
+hex_6[5] <= Mux43.DB_MAX_OUTPUT_PORT_TYPE
+hex_6[6] <= Mux42.DB_MAX_OUTPUT_PORT_TYPE
+hex_7[0] <= Mux55.DB_MAX_OUTPUT_PORT_TYPE
+hex_7[1] <= Mux54.DB_MAX_OUTPUT_PORT_TYPE
+hex_7[2] <= Mux53.DB_MAX_OUTPUT_PORT_TYPE
+hex_7[3] <= Mux52.DB_MAX_OUTPUT_PORT_TYPE
+hex_7[4] <= Mux51.DB_MAX_OUTPUT_PORT_TYPE
+hex_7[5] <= Mux50.DB_MAX_OUTPUT_PORT_TYPE
+hex_7[6] <= Mux49.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4
+HEX0[0] <= decoder7:inst15.Out[0]
+HEX0[1] <= decoder7:inst15.Out[1]
+HEX0[2] <= decoder7:inst15.Out[2]
+HEX0[3] <= decoder7:inst15.Out[3]
+HEX0[4] <= decoder7:inst15.Out[4]
+HEX0[5] <= decoder7:inst15.Out[5]
+HEX0[6] <= decoder7:inst15.Out[6]
+clock => fdiv_cronometro:inst13.clkin
+start_stop => inst37.IN1
+reset => inst2.IN0
+HEX1[0] <= decoder7:inst12.Out[0]
+HEX1[1] <= decoder7:inst12.Out[1]
+HEX1[2] <= decoder7:inst12.Out[2]
+HEX1[3] <= decoder7:inst12.Out[3]
+HEX1[4] <= decoder7:inst12.Out[4]
+HEX1[5] <= decoder7:inst12.Out[5]
+HEX1[6] <= decoder7:inst12.Out[6]
+HEX2[0] <= decoder7:inst14.Out[0]
+HEX2[1] <= decoder7:inst14.Out[1]
+HEX2[2] <= decoder7:inst14.Out[2]
+HEX2[3] <= decoder7:inst14.Out[3]
+HEX2[4] <= decoder7:inst14.Out[4]
+HEX2[5] <= decoder7:inst14.Out[5]
+HEX2[6] <= decoder7:inst14.Out[6]
+HEX3[0] <= decoder7:inst22.Out[0]
+HEX3[1] <= decoder7:inst22.Out[1]
+HEX3[2] <= decoder7:inst22.Out[2]
+HEX3[3] <= decoder7:inst22.Out[3]
+HEX3[4] <= decoder7:inst22.Out[4]
+HEX3[5] <= decoder7:inst22.Out[5]
+HEX3[6] <= decoder7:inst22.Out[6]
+HEX4[0] <= decoder7:inst35.Out[0]
+HEX4[1] <= decoder7:inst35.Out[1]
+HEX4[2] <= decoder7:inst35.Out[2]
+HEX4[3] <= decoder7:inst35.Out[3]
+HEX4[4] <= decoder7:inst35.Out[4]
+HEX4[5] <= decoder7:inst35.Out[5]
+HEX4[6] <= decoder7:inst35.Out[6]
+HEX5[0] <= decoder7:inst.Out[0]
+HEX5[1] <= decoder7:inst.Out[1]
+HEX5[2] <= decoder7:inst.Out[2]
+HEX5[3] <= decoder7:inst.Out[3]
+HEX5[4] <= decoder7:inst.Out[4]
+HEX5[5] <= decoder7:inst.Out[5]
+HEX5[6] <= decoder7:inst.Out[6]
+
+
+|relogio_final|cronometro:inst4|decoder7:inst15
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|contador0_9:inst11
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|fdiv_cronometro:inst13
+clkin => clkout~reg0.CLK
+clkin => cont[0].CLK
+clkin => cont[1].CLK
+clkin => cont[2].CLK
+clkin => cont[3].CLK
+clkin => cont[4].CLK
+clkin => cont[5].CLK
+clkin => cont[6].CLK
+clkin => cont[7].CLK
+clkin => cont[8].CLK
+clkin => cont[9].CLK
+clkin => cont[10].CLK
+clkin => cont[11].CLK
+clkin => cont[12].CLK
+clkin => cont[13].CLK
+clkin => cont[14].CLK
+clkin => cont[15].CLK
+clkin => cont[16].CLK
+clkin => cont[17].CLK
+clkin => cont[18].CLK
+clkin => cont[19].CLK
+clkin => cont[20].CLK
+clkin => cont[21].CLK
+clkin => cont[22].CLK
+clkin => cont[23].CLK
+clkin => cont[24].CLK
+clkin => cont[25].CLK
+clkin => cont[26].CLK
+clkin => cont[27].CLK
+clkin => cont[28].CLK
+clkin => cont[29].CLK
+clkin => cont[30].CLK
+clkin => cont[31].CLK
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|decoder7:inst12
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|contador0_9:inst1
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|decoder7:inst14
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|contador0_9:inst3
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|decoder7:inst22
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|contador0_5:inst21
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|decoder7:inst35
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|contador0_9:inst29
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|decoder7:inst
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|cronometro:inst4|contador0_5:inst36
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5
+HEX0[0] <= decoder7:inst59.Out[0]
+HEX0[1] <= decoder7:inst59.Out[1]
+HEX0[2] <= decoder7:inst59.Out[2]
+HEX0[3] <= decoder7:inst59.Out[3]
+HEX0[4] <= decoder7:inst59.Out[4]
+HEX0[5] <= decoder7:inst59.Out[5]
+HEX0[6] <= decoder7:inst59.Out[6]
+CLOCK_50 => fdiv_relogio:inst49.clkin
+KEY[2] => inst50.IN0
+HEX1[0] <= decoder7:inst52.Out[0]
+HEX1[1] <= decoder7:inst52.Out[1]
+HEX1[2] <= decoder7:inst52.Out[2]
+HEX1[3] <= decoder7:inst52.Out[3]
+HEX1[4] <= decoder7:inst52.Out[4]
+HEX1[5] <= decoder7:inst52.Out[5]
+HEX1[6] <= decoder7:inst52.Out[6]
+HEX2[0] <= decoder7:inst33.Out[0]
+HEX2[1] <= decoder7:inst33.Out[1]
+HEX2[2] <= decoder7:inst33.Out[2]
+HEX2[3] <= decoder7:inst33.Out[3]
+HEX2[4] <= decoder7:inst33.Out[4]
+HEX2[5] <= decoder7:inst33.Out[5]
+HEX2[6] <= decoder7:inst33.Out[6]
+HEX3[0] <= decoder7:inst34.Out[0]
+HEX3[1] <= decoder7:inst34.Out[1]
+HEX3[2] <= decoder7:inst34.Out[2]
+HEX3[3] <= decoder7:inst34.Out[3]
+HEX3[4] <= decoder7:inst34.Out[4]
+HEX3[5] <= decoder7:inst34.Out[5]
+HEX3[6] <= decoder7:inst34.Out[6]
+HEX4[0] <= decoder7:inst35.Out[0]
+HEX4[1] <= decoder7:inst35.Out[1]
+HEX4[2] <= decoder7:inst35.Out[2]
+HEX4[3] <= decoder7:inst35.Out[3]
+HEX4[4] <= decoder7:inst35.Out[4]
+HEX4[5] <= decoder7:inst35.Out[5]
+HEX4[6] <= decoder7:inst35.Out[6]
+HEX5[0] <= decoder7:inst36.Out[0]
+HEX5[1] <= decoder7:inst36.Out[1]
+HEX5[2] <= decoder7:inst36.Out[2]
+HEX5[3] <= decoder7:inst36.Out[3]
+HEX5[4] <= decoder7:inst36.Out[4]
+HEX5[5] <= decoder7:inst36.Out[5]
+HEX5[6] <= decoder7:inst36.Out[6]
+HEX6[0] <= decoder7:inst37.Out[0]
+HEX6[1] <= decoder7:inst37.Out[1]
+HEX6[2] <= decoder7:inst37.Out[2]
+HEX6[3] <= decoder7:inst37.Out[3]
+HEX6[4] <= decoder7:inst37.Out[4]
+HEX6[5] <= decoder7:inst37.Out[5]
+HEX6[6] <= decoder7:inst37.Out[6]
+HEX7[0] <= decoder7:inst38.Out[0]
+HEX7[1] <= decoder7:inst38.Out[1]
+HEX7[2] <= decoder7:inst38.Out[2]
+HEX7[3] <= decoder7:inst38.Out[3]
+HEX7[4] <= decoder7:inst38.Out[4]
+HEX7[5] <= decoder7:inst38.Out[5]
+HEX7[6] <= decoder7:inst38.Out[6]
+
+
+|relogio_final|relogio:inst5|decoder7:inst59
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_9:inst53
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|fdiv_relogio:inst49
+clkin => clkout~reg0.CLK
+clkin => cont[0].CLK
+clkin => cont[1].CLK
+clkin => cont[2].CLK
+clkin => cont[3].CLK
+clkin => cont[4].CLK
+clkin => cont[5].CLK
+clkin => cont[6].CLK
+clkin => cont[7].CLK
+clkin => cont[8].CLK
+clkin => cont[9].CLK
+clkin => cont[10].CLK
+clkin => cont[11].CLK
+clkin => cont[12].CLK
+clkin => cont[13].CLK
+clkin => cont[14].CLK
+clkin => cont[15].CLK
+clkin => cont[16].CLK
+clkin => cont[17].CLK
+clkin => cont[18].CLK
+clkin => cont[19].CLK
+clkin => cont[20].CLK
+clkin => cont[21].CLK
+clkin => cont[22].CLK
+clkin => cont[23].CLK
+clkin => cont[24].CLK
+clkin => cont[25].CLK
+clkin => cont[26].CLK
+clkin => cont[27].CLK
+clkin => cont[28].CLK
+clkin => cont[29].CLK
+clkin => cont[30].CLK
+clkin => cont[31].CLK
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|decoder7:inst52
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_9:instFDS2
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|decoder7:inst33
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_9:inst
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|decoder7:inst34
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_5:inst8
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|decoder7:inst35
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_9:inst9
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|decoder7:inst36
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_5:inst15
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|decoder7:inst37
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_9:inst16
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|contador0_2:inst45
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|relogio_final|relogio:inst5|decoder7:inst38
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,36 @@
+module contador_decrescente(
+    input clk,       // Clock
+    input reset,     // Reset para iniciar o contador de novo
+    output reg [3:0] count // Saída de 4 bits para representar o contador
+);
+
+// Definição de estados
+reg estado_inicial; // Estado de controle: 0 para contagem de 3 a 0, 1 para contagem de 9 a 0
+
+always @(posedge clk or posedge reset) begin
+    if (reset) begin
+        count <= 4'b0011; // Começa com 3
+        estado_inicial <= 1'b0; // Estado inicial
+    end
+    else begin
+        if (estado_inicial == 1'b0) begin
+            // Contagem de 3 a 0
+            if (count > 4'b0000) begin
+                count <= count - 1;
+            end else begin
+                count <= 4'b1001; // Quando atingir 0, iniciar contagem de 9
+                estado_inicial <= 1'b1; // Mudar para o próximo estado
+            end
+        end
+        else begin
+            // Contagem de 9 a 0
+            if (count > 4'b0000) begin
+                count <= count - 1;
+            end else begin
+                count <= 4'b1001; // Reinicia de 9 a 0 continuamente
+            end
+        end
+    end
+end
+
+endmodule

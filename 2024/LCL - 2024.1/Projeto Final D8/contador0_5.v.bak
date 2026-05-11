@@ -1,0 +1,20 @@
+module contador0_5(
+    input clk,      // Clock
+    input rst,      // Reset
+    input enable,   // Enable (1: contador funciona, 0: contador pausado)
+    output reg [3:0] count // SaÃ­da do contador (4 bits para contar atÃ© 9)
+);
+
+always @(posedge clk or posedge rst) begin
+    if (rst) begin
+        count <= 4'b0000; // Resetar o contador para 0
+    end else if (enable) begin
+        if (count == 4'b0101) begin
+            count <= 4'b0000; // Reiniciar o contador quando atingir 5
+        end else begin
+            count <= count + 1'b1; // Incrementar o contador
+        end
+    end
+end
+
+endmodule
