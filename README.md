@@ -28,7 +28,7 @@ O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual t
 ## 📅 2024.1 - 2° Semestre
 
 ### 🔌 Laboratório de Circuitos Lógicos (LCL)
-Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalmente experimentos no laboratório (LINF), sendo necessário também entregar um relatório para cada experimento realizado. Dessa forma, todos os relatórios, juntamente com as especificações dos projetos, códigos e vídeos dos experimentos, podem ser encontrados neste repositório, clique [aqui]().
+Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalmente experimentos no laboratório (LINF), sendo necessário também entregar um relatório para cada experimento realizado. Dessa forma, todos os relatórios, juntamente com as especificações dos projetos, códigos e vídeos dos experimentos, podem ser encontrados neste repositório, clique [aqui](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1).
 
 #### Projeto Final: Relógio Digital com Cronômetro e Timer 🕑
 
