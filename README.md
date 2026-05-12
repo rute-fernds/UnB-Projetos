@@ -7,7 +7,7 @@ Alguns projetos foram desenvolvidos individualmente e outros em equipe (trabalho
 
 ## 📅 2023.2 - 1° Semestre
 
-### 🖥️ Algoritmo e Programação de Computadores (APC)  ![Individual](https://img.shields.io/badge/Projeto-Individual-blue)
+### 🖥️ Algoritmo e Programação de Computadores (APC)  
 
 Como projeto final da disciplina de APC, desenvolvi o jogo Asteroid Universe baseado no famoso Space Invaders, utilizando a linguagem de programação Python jutamento da biblioteca Pygame. 
 
@@ -15,13 +15,17 @@ O intuito desse projeto foi aplicar, de forma prática, conceitos fundamentais d
 
 ➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [Asteroid Universe](https://github.com/rute-fernds/Asteroid-Universe)
 
-### ⚙️ Introdução aos Sistemas Computacionais (ISC) ![Grupo](https://img.shields.io/badge/Projeto-Em%20Grupo-orange)
-
+### ⚙️ Introdução aos Sistemas Computacionais (ISC) 
 Durante a disciplina de ISC, desenvolvi, em um projeto em grupo, um jogo em Assembly na arquitetura RISC-V. 
+
+#### Integrantes  👥
+- [Giovanni Daldegan](https://github.com/GiovanniDaldegan) 
+- [Michele Nakagomi](https://github.com/michelenakagomi)
+- [Rute Fernandes](https://github.com/rute-fernds)
 
 O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual tivemos como objetivo aplicar conceitos de programação em baixo nível, além de criar personagens, layout, história e design próprios. Na parte do desenvolvimento, trabalhei principalmente na criação do layout das fases, juntamente com a construção da matriz responsável pela renderização dessses cenários.
 
-➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [Kawaiice Cream](https://github.com/rute-fernds/kawaiice-cream)
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [Kawaiice Cream]()
 
 ---
 
@@ -30,11 +34,16 @@ O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual t
 ### 🔌 Laboratório de Circuitos Lógicos (LCL)
 Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalmente experimentos no laboratório (LINF), sendo necessário também entregar um relatório para cada experimento realizado. Dessa forma, todos os relatórios, juntamente com as especificações dos projetos, códigos e vídeos dos experimentos, podem ser encontrados neste repositório, clique [aqui](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1).
 
+#### Integrantes  👥
+- [Mariana Siminion](https://github.com/marianassimion)
+- [Rodrigo Rafik](https://github.com/maetsuji)
+- [Rute Fernandes](https://github.com/rute-fernds)
+
 #### Projeto Final: Relógio Digital com Cronômetro e Timer 🕑
 
 Para o desenvolvimento desse sistema, foi utilizado o software Quartus II para a implementação do código em linguagem de descrição de hardware (Verilog) e dos circuitos digitais, juntamente com a placa FPGA DE2, da Altera, para a síntese e verificação do hardware.
 
-➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [LCL](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1/Projeto%20Final%20-%20LCL).
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [LCL](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1/Projeto%20Final%20-%20LCL)
 
 ---
 
