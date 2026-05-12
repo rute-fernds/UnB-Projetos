@@ -32,7 +32,7 @@ O *Kawaiice Cream* é uma releitura do jogo *Bad Ice Cream* (Nitrome), no qual t
 ## 📅 2024.1 - 2° Semestre
 
 ### 🔌 Laboratório de Circuitos Lógicos (LCL)
-Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalmente experimentos no laboratório (LINF), sendo necessário também entregar um relatório para cada experimento realizado. Dessa forma, todos os relatórios, juntamente com as especificações dos projetos, códigos e vídeos dos experimentos, podem ser encontrados neste repositório, clique [aqui](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1).
+Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalmente experimentos no laboratório (LINF), sendo necessário também entregar um relatório para cada experimento realizado. Dessa forma, todos os relatórios, juntamente com as especificações dos projetos, códigos e vídeos dos experimentos, podem ser encontrados neste repositório, clique [aqui](https://github.com/rute-fernds/UnB-Projetos/tree/main/2024/LCL%20-%202024.1).
 
 #### Integrantes  👥
 - [Mariana Siminion](https://github.com/marianassimion)
@@ -43,7 +43,7 @@ Durante a disciplina de LCL, eu e o meu grupo de trabalho realizávamos semanalm
 
 Para o desenvolvimento desse sistema, foi utilizado o software Quartus II para a implementação do código em linguagem de descrição de hardware (Verilog) e dos circuitos digitais, juntamente com a placa FPGA DE2, da Altera, para a síntese e verificação do hardware.
 
-➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [LCL](https://github.com/rute-fernds/UnB-Projetos/tree/main/LCL%20-%202024.1/Projeto%20Final%20-%20LCL)
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [LCL](https://github.com/rute-fernds/UnB-Projetos/tree/main/2024/LCL%20-%202024.1/Projeto%20Final%20D8)
 
 ---
 
