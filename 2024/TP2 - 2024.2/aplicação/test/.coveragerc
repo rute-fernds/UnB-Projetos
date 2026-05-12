@@ -1,4 +1,0 @@
-[run]
-omit =  */test/*
-        aplicação/app.py
-        */utils.py
