@@ -64,6 +64,7 @@ Embora o projeto tenha sido entregue funcionalmente, algumas funcionalidades pla
 
 
 #### Integrantes  👥
+- [Dionilton Oliveira](https://github.com/Dionilton)
 - [Mariana Siminion](https://github.com/marianassimion)
 - [Rute Fernandes](https://github.com/rute-fernds)
 
