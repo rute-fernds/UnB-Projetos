@@ -62,7 +62,7 @@ O primeiro projeto da disciplina de Redes de Computadores consistiu no desenvolv
 
 Durante o desenvolvimento do sistema, fiquei responsável principalmente pela parte de design e estética da interface gráfica da aplicação, utilizando HTML e CSS para a construção das telas e estilização.
 
-➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [ChatWeb 2.0]().
+➡️ Para mais detalhes sobre a documentação e o código do projeto, acesse [ChatWeb 2.0]()
 
 #### Projeto 2: 
 
