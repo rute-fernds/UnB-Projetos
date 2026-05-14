@@ -108,6 +108,12 @@ Durante o desenvolvimento, fiquei responsável principalmente pela criação das
 
 ### 📊 Sistemas da Informação (SI)
 
+#### Integrantes  👥
+- 
+- [Rodrigo Rafik](https://github.com/maetsuji)
+- [Rute Fernandes](https://github.com/rute-fernds)
+
+
 ---
 
 ## 📅 2026.1 - 6° Semestre
